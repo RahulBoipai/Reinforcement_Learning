@@ -17,7 +17,7 @@ state and keeps on getting the positive reward. The agent has only a fixed amoun
 units to traverse the maze
 
 - Goal: calculate the optimal reward that the agent can get in N steps from given initial cell of the maze.
-| ![](https://github.com/RahulBoipai/Reinforcement_Learning/blob/main/pics/goal_grid.png) |
+| ![](https://github.com/RahulBoipai/Reinforcement_Learning/blob/main/pics/maze.png) |
 
 #### Implementation detail
 Implement the function `optimalReward()` that takes current state s and time-step
@@ -42,7 +42,7 @@ reward. The cells containing treasure are assumed to have an infinite amount of 
 
 - Goal: Implement the Q-Learning algorithm for the above problem
 
-| ![](/data/home/rahulboipai/IISc/RL/pics/goal_grid.png) |
+| ![](https://github.com/RahulBoipai/Reinforcement_Learning/blob/main/pics/goal_grid.png) |
 
 ### Implementation detail
 Your task is to implement the function `q learning()` that returns a numpy array Q Table in which
