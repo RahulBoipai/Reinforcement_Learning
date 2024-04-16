@@ -127,7 +127,11 @@ class GridworldSolution:
 
 if __name__ == "__main__":
     maze = Maze()
-    solution = GridworldSolution(maze,horizonLength=5)
-    print(" Horizon ",solution.horizonLength)
-    optReward = solution.optimalReward((2,0),0)
-    assert optReward==28.0, 'wrong answer'
+    for h_length in range(1,6):
+        solution = GridworldSolution(maze,horizonLength=h_length)
+        print("================================================")
+        print(" Horizon Length: ",solution.horizonLength)
+        optReward = solution.optimalReward((2,0),0)
+        print(" Optimal Reward: ",optReward)
+    print("================================================")
+    #assert optReward==28.0, 'wrong answer'

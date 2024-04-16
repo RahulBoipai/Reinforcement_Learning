@@ -23,7 +23,8 @@ class gridworld:
             self.grid[e] = "X"
 
     #print gridworld
-    def print_grid(self):				
+    def print_grid(self):
+        print("Grid World:")				
         print(self.grid)
 
     #set current state to start state
