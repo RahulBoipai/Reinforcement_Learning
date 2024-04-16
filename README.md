@@ -4,7 +4,7 @@
 ## Overview
 
 ### Problem 1
-A maze runner agent is trapped in a rectangular maze built up of walls. It needs to navigate the maze in
+A `maze runner agent` is trapped in a rectangular maze built up of walls. It needs to navigate the maze in
 order to reach goal state(s). The agent can take any one of the four actions among lef t, right ,up, down
 at every time step. Depending on the action taken, agent will move to the corresponding cell or will stay
 in the same cell if it collides with the walls. There are several doors in the maze that can open only with
@@ -17,7 +17,7 @@ state and keeps on getting the positive reward. The agent has only a fixed amoun
 units to traverse the maze
 
 - Goal: calculate the optimal reward that the agent can get in N steps from given initial cell of the maze.
-| ![](https://github.com/RahulBoipai/Reinforcement_Learning/blob/main/pics/maze.png) |
+![](https://github.com/RahulBoipai/Reinforcement_Learning/blob/main/pics/maze.png) 
 
 #### Implementation detail
 Implement the function `optimalReward()` that takes current state s and time-step
@@ -30,7 +30,7 @@ For example, in the given maze, takeAction((1, 5), lef t) will return [[(1, 4), 
 
 
 ### Problem 2
-A Treasure Hunter agent is trapped in an m×n island from which it cannot escape. Its task is to dig for
+A `Treasure Hunter agent` is trapped in an m×n island from which it cannot escape. Its task is to dig for
 buried treasures that are spread across different locations on the island. The island also contains several
 traps which always incur damage to the agent whenever visited. At any location on the island (indicated by
 a cell), the agent can take possible actions among left, right, up, and down, but not all actions are valid in
@@ -42,7 +42,7 @@ reward. The cells containing treasure are assumed to have an infinite amount of 
 
 - Goal: Implement the Q-Learning algorithm for the above problem
 
-| ![](https://github.com/RahulBoipai/Reinforcement_Learning/blob/main/pics/goal_grid.png) |
+![](https://github.com/RahulBoipai/Reinforcement_Learning/blob/main/pics/goal_grid.png) 
 
 ### Implementation detail
 Your task is to implement the function `q learning()` that returns a numpy array Q Table in which
